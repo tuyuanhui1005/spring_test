@@ -20,6 +20,7 @@ public class test {
         Class  clazz = Class.forName("demo.student");
         student stu = (student) clazz.newInstance();
         stu.sout();
+        System.out.println("21312");
 
     }
 }
